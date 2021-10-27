@@ -6,3 +6,4 @@
 !.gitignore
 !CMakeLists.txt
 build/**
+!tests/**.c
