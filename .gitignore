@@ -4,3 +4,5 @@
 !src/**.c
 !include/**.h
 !.gitignore
+!CMakeLists.txt
+build/**
