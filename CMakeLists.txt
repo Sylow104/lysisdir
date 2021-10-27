@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(lysisdir VERSION 0.0.1)
+FILE(GLOB SRC_C src/*.c)
+add_library(lysisdir ${SRC_C})
+target_include_directories(lysisdir PUBLIC include)
